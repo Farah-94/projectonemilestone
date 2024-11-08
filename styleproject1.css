@@ -1,0 +1,380 @@
+html, body {
+    height: 160%; 
+    background-color:white;
+    margin: 0;
+      padding: 0;
+     box-sizing: border-box;
+     position:relative;
+  }
+  
+  span {
+    font-weight: 700;
+  }
+  .logo {
+    width:  200px;
+    height:80px;
+    border-radius: 50%;
+  margin: 0% auto;
+  padding: 0%;
+  
+  outline: double 4px rgb(23, 19, 27);
+  }
+  
+  button{
+    border-style: double;
+    width:100%;
+    background-color: rgb(4, 16, 76);
+    color: aliceblue;
+    font-style: italic;
+    font-size: medium;
+    margin-bottom:2%;
+    outline: dashed 2px rgb(27, 87, 193);
+  }
+  button:hover{ 
+  
+    background-color:white;
+      color: black;
+    }
+  
+  
+  .join
+  {
+    width:150px;
+    background-color: rgba(92, 46, 167, 0.792);
+    color: rgb(237, 239, 241);
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: x-large;
+    margin:2%;
+    padding: 1%;
+    outline: dashed 2px black;
+   
+  }
+  
+  .join:hover {
+    background-color: rgb(221, 233, 237);
+    color: black;
+  
+  }
+  .container-one
+   {
+   
+    /* background-color:  rgba(3, 35, 91, 0.792); */
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 30%;
+    /* outline: dashed 2px black; */
+    text-align: center;
+    align-items: center;
+  background: rgba(3, 35, 91, 0.792) url('logo7.jpg') center center/ cover no-repeat;
+  /* background-repeat: no-repeat;
+  background-position: center;
+   background-size: auto;  */
+  font-size: x-large;
+  color:aliceblue;
+  font-weight: 700;
+  font-style: italic;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+   li {
+    display:inline-block;
+    text-align: center;
+    padding: 0 16px;
+    font-style: italic;
+  
+  } 
+  
+  .home-options a
+  {
+   width:100%;
+  height: 40px;
+  color:aliceblue;
+  font-size: x-large;
+  /* border:1px solid black; */
+  text-align: center;
+  padding: 0;
+  text-decoration: none;
+  }
+  
+   .home-options
+    { 
+    /* display: flex;
+    flex-direction: row; */
+  background-color: rgb(39, 13, 39);
+    border-style: double;
+  } 
+  
+  .home-options a:hover 
+  {
+    background-color:aliceblue;
+    color: black;
+  }
+  
+  .content 
+  {
+    outline: dashed 2px black;
+    width:100%;
+    height:30%;
+    display: flex;
+    justify-content: center;
+    background-image:radial-gradient(rgb(11, 11, 11),rgb(56, 62, 142),rgb(49, 39, 75));
+  
+  /* background-image:radial-gradient(rgb(29, 8, 8),rgb(131, 8, 131),rgb(10, 10, 152)); */
+  margin-top:1%;
+  
+  }
+  
+  .detail p
+  {
+    width:100%;
+    height:70px;
+    margin-top:1%;
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: large;
+  padding:0;
+  text-align: center;
+  /* outline: dashed 2px rgb(28, 62, 84); */
+  }
+  
+  .feature
+   {
+    height:300px;
+    width: 30%;
+    background-image:radial-gradient(rgb(11, 11, 11),rgb(56, 62, 142),rgb(49, 39, 75));
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* display: block; */
+  outline: dashed 2px rgb(6, 3, 73);
+  text-align: center;
+  text-transform: capitalize;
+  
+  }
+  .juice-corner
+   {
+    outline: dashed 2px rgb(6, 3, 73);
+     width:200px;
+    
+  }
+  .location
+   {
+    outline: dashed 2px rgb(6, 3, 73);
+    width:200px;
+  }
+  .lockers
+  {
+    outline: dashed 2px rgb(6, 3, 73);
+    width:200px;
+  }
+  .bath
+  {
+    
+    outline: dashed 2px rgb(6, 3, 73);
+    width:200px;
+  }
+  
+  .clean-enviroment
+  {
+  
+    outline: dashed 2px rgb(6, 3, 73);
+    width:200px;
+  }
+  
+  .line{
+     text-align: center;
+    /* padding: 2px 8px; */
+    color: aliceblue;
+  }
+  .flex-container {
+  
+    gap:5px;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display:flex;
+    flex-wrap: nowrap;
+   justify-content: center;
+   height:400px;
+    align-items: center;
+  
+  }
+  
+  
+  
+  .body-content h1{
+    margin-bottom:0;
+    Color:rgb(114, 74, 5);
+     text-align: center;
+     font-weight: 700;
+     font-style: italic;
+     text-decoration: underline;
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .services-container {
+    width: 100%;
+    height:300px;
+    background:url('logo7.jpg') center center/ cover no-repeat;
+    /* background-color: rgb(39, 26, 73); */
+    color: aliceblue;
+    text-align: center;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  align-items :center;
+  }
+  
+   .nav-services a{
+    color:aliceblue;
+    font-size: x-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    margin-bottom:2%;
+    padding: 3%;
+   }
+   header a:hover{
+    background-color: aliceblue;
+    color: black;
+   }
+   .services-options a
+   {
+    color: aliceblue;
+    margin:5px 5px;
+   }
+   .services-container h1{
+  /* border:dotted 2px white; */
+  display:block;
+  margin:3%;
+  color:aliceblue;
+  padding:2%;
+   }
+  .section-services{
+    text-align: center;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(3, 15, 86);
+    color: aliceblue;
+   }
+   /* services.html body{
+  
+   } */
+  
+   #contactus {
+    overflow: auto;
+    width: 100%;
+    height: auto;  
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin:1%;
+  
+  } 
+  #box-one  {
+    background-image:radial-gradient(rgb(11, 11, 11),rgb(56, 62, 142),rgb(49, 39, 75));
+  font-size: large;
+    color:aliceblue;
+    position: absolute;
+    left: 100px;
+    width: 40%;
+    height: 400px;
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align:center;
+  
+  }
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #box-two{
+    background-image:radial-gradient(rgb(11, 11, 11),rgb(56, 62, 142),rgb(49, 39, 75));
+  
+    color: aliceblue;
+    position: absolute;
+    right:100px;
+    text-align: center;
+    width: 40%;
+    height: 400px;
+  overflow: hidden;
+  
+    box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  } 
+  .footer {
+    background-image:radial-gradient(rgb(11, 11, 11),rgb(56, 62, 142),rgb(49, 39, 75));
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    outline: dashed 2px rgb(29, 13, 72);
+    text-transform: capitalize;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    color: white;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    font-size: large;
+  }
+  .contactus a  {
+    font-size: large;
+  outline: dashed 2px rgb(6, 3, 73);
+  text-transform: uppercase;
+  margin: 3%;
+  background-color:rgba(40, 35, 75, 0.792);
+  color: aliceblue;
+  }
+  
+  .contactus a:hover {
+    background-color: white;
+    color: black;
+  }
+   .signup-body {
+    background-image:radial-gradient(rgb(11, 11, 11),rgb(56, 62, 142),rgb(49, 39, 75));
+     height: 100%;
+     width:100%;
+     margin-top:0;
+     padding:0;
+  }
+  
+  .signup-page-header  h1{
+  text-align: center;
+  background-color: rgb(8, 8, 61);
+  color: aliceblue;
+  height: 70px;
+  display: block;
+  
+  
+  }
+  
+  .signup-page-container 
+  {
+    
+  text-align: center;
+  height: 70%;
+  color: aliceblue;
+  background: rgba(3, 35, 91, 0.792) url('logo7.jpg') center center/ cover no-repeat;
+  }
+  legend{
+    font-size: x-large;
+  }
+  #forms input:focus {
+    background-color: rgb(27, 24, 60);
+    color: aliceblue;
+  }
+  label{
+    padding: 10px 10px 10px 0;
+   display:block;
+   font-size: large;
+   font-weight: 700;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-style: italic;
+  }
+  input{
+    width: 300px;
+    padding:1%;
+  }
+  .services-body{
+    background-image:radial-gradient(rgb(11, 11, 11),rgb(56, 62, 142),rgb(49, 39, 75), black);
+  color:aliceblue;
+  height: 160%;
+  
+  }
