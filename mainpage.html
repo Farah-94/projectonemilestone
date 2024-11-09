@@ -3,20 +3,38 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="Champions Gym, London based gym, also offering other healthy activities">
+    <meta name="author" content="Champions Gym">
+    <meta name="keywords" content=" Champions gym, workout, london, activities club, healthy routine, gym membership">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Champions</title>
+
+    <title>Champions Gym and Club</title>
     <link rel="stylesheet" href="styleproject1.css">
 </head>
 
 <body>
+                    
+<header>
 
-<header>    
-<div class="container-one" id="home">
+    <!-- header content  -->
+<!-- div container which has button for discount on top, 
+     Gym logo, paragraph as tagline, button for signup and another div for multiple options  -->
+
+<div class="container-one" id="home">    
     <button>10% Discount - Click me!</button>
 <img src="real.jpg" alt="" width="200px" height="200px" class="logo">
      <p>Embrace The Challenge, Enjoy The Change</p>
 
-<a href="signup.html" target="_blank" width="150px"><button class="join">Join a club</button></a>   
+<!-- button inside an anchor tag when you click it it will open a signup page  -->
+
+<a href="signup.html" target="_blank" width="150px"><button class="join">Join a club</button> </a> 
+
+<!-- this is a nested div. it has multiple options 
+       click on home, it will open a header's div container
+       click on services, it will open another page that shows all the services the gym offers 
+       click on personal trainer, it will open another page that shows trainers details
+       click on contact us, it will show the contact and location details section -->
+
         <div class="home-options">
             <ul>
               <li> <a href="#home">Home</a> </li>
@@ -27,33 +45,52 @@
         </div> 
       
 </div>
+<!-- container-one end -->
 </header>
+<!-- header end -->
 
+
+
+
+<!-- pictures of inside the gym -->
 
 <div class="detail">
+
+<!-- this section has three pictures -->
 <section class="content">
-    <img src="craig-lovelidge-yDGsn39fbD4-unsplash.jpg" alt="" width="300px">
-    <img src="photo-genius-XqxnqyqDU0k-unsplash.jpg" alt="" width="300px">
-    <img src="vishwanth-pindiboina-zH9uqL_d258-unsplash.jpg" alt="" width="300px">
+    <img src="craig-lovelidge-yDGsn39fbD4-unsplash.jpg" alt="gym workout machines" width="300px">
+    <img src="photo-genius-XqxnqyqDU0k-unsplash.jpg" alt="a woman doing workout at gym " width="300px">
+    <img src="vishwanth-pindiboina-zH9uqL_d258-unsplash.jpg" alt="gym cycle machine" width="300px">
 </section>
 <p>Gym has well-maintained cardio machines <span>(like treadmills, ellipticals, and stationary bikes), free weights (dumbbells, barbells, kettlebells)</span>, and strength training machines. .</p>
 </div>
 
-<div class="body-content">
+
+
+
+
+<!-- this is the main content of the page that shows what facilities the gym offers -->
+<div class="body-content"> 
     <h1>What We Offer</h1>
+
+<!-- this div has multiple divs inside it -->
+
     <div class="flex-container">
 
+<!-- each div shows a particular image and small description on a feature of the gym  -->
+<!-- the gym has parking space and its near by train station-->
+ <!-- the gym has locker room, juice corner, shower rooms and clean enviroment -->
 <div class="feature">
 
-    <img class="location" src="location.jpg" alt="" width="200px" height="132px";>
+    <img class="location" src="location.jpg" alt="arrow sign to show direction for gym" width="200px" height="132px";>
     <div>
-        <h2 style="text-align: center; color:white;">Convinient Location</h2>
+        <h2 style="text-align: center; color:white;">Convinient Location And Parking Space</h2>
     <p class="line"> Because convenience matters</p>
     </div>
 </div>
 
 <div class="feature">
-    <img class="lockers" src="lockers.jpg" alt="" width="200px">
+    <img class="lockers" src="lockers.jpg" alt="locker room" width="200px">
     <div>
         <h2 style="text-align: center; color:white;">Secure Storage</h2> 
         <p class="line">Finger print storage lockers.</p>
@@ -62,7 +99,7 @@
 
 <div class="feature">
 
-<img class="juice-corner" src="juice.jpg" alt="" width="150px">
+<img class="juice-corner" src="juice.jpg" alt="two glass of juice" width="150px">
 <div>
     <h2 style="text-align:center; color:white ;">Juice Corner</h2>
 <p class="line">Juice up, lift heavy.</p>
@@ -70,7 +107,7 @@
 </div>
 
 <div class="feature">
-    <img class="bath" src="bath.jpg" alt="" width="200px" height="133px" >
+    <img class="bath" src="bath.jpg" alt="shower room" width="200px" height="133px" >
     <div>
         <h2 style="text-align:center; color:white ;">Recovery Rooms</h2>
         <p class="line"></p>
@@ -79,7 +116,7 @@
      
 <div class="feature">
 
-<img class="clean-enviroment" src="clean.jpg" alt="" width="200px" >
+<img class="clean-enviroment" src="clean.jpg" alt="workout machines at gym" width="200px" >
 <div>
     <h2 style="text-align:center; color:white ;" >Clean Enviroment</h2>
     <p class="line">First impressions last, and a clean gym is an attractive one</p>
@@ -91,7 +128,9 @@
 
 
 
-
+<!-- this section has two divs one is for gym opening and closing times
+ address, phone and email -->
+ <!-- second div is to show the location -->
 <section id="contactus" >
 
 	<div id="box-one">
@@ -140,8 +179,12 @@
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9922.785416310386!2d0.0461667871582028!3d51.55546670000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a65f30d4fda9%3A0xdc0e8705e634e8f1!2sThe%20Gym%20Group%20London%20Ilford%20Romford%20Road!5e0!3m2!1sen!2suk!4v1730305621926!5m2!1sen!2suk" width="400" height="300"></iframe>
     </div>
 </section>
+<!---------------------- section end ------------------>
 
 
+
+
+<!--  -------- footer--------   -->
 <div class="footer">
 
     <span>Find us on:</span>
@@ -153,7 +196,7 @@
     <p>Copyright © |Champions 2022</p>
 
 </div>
-
+<!-- footer end -->
 
 </body>
 
