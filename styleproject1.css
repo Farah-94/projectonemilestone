@@ -27,14 +27,13 @@ html, body {
 
   /* this button on mainpage.html container-one for discount */
   button{
-    border-style: double;
+    /* border-style: double; */
     width:100%;
     background-color: rgb(4, 16, 76);
     color: aliceblue;
     font-style: italic;
     font-size: medium;
     margin-bottom:2%;
-    outline: dashed 2px rgb(27, 87, 193);
    
   }
   button:hover{ 
@@ -55,7 +54,7 @@ html, body {
     font-size: x-large;
     margin:2%;
     padding: 1%;
-    outline: dashed 2px black;
+    /* outline: dashed 2px black; */
    
   }
   
@@ -116,7 +115,7 @@ html, body {
     /* display: flex;
     flex-direction: row; */
   background-color: rgb(39, 13, 39);
-    border-style: double;
+    /* border-style: double; */
   } 
   
   .home-options a:hover 
@@ -273,7 +272,26 @@ html, body {
     color: rgb(3, 15, 86);
     color: aliceblue;
    }
-  
+ 
+   .aboutuspage {
+
+    width: 100%;
+    background-image:radial-gradient(rgb(11, 11, 11),rgb(56, 62, 142),rgb(49, 39, 75), black);
+    height:100%;
+    color:aliceblue;
+    margin:0;
+    padding: 0;
+      }
+      .aboutus-box{
+        align-items: center;
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 50%;
+height: 50%;
+
+      }
   
    #contactus {
    
