@@ -10,6 +10,8 @@
 
     <title>Champions Gym and Club</title>
     <link rel="stylesheet" href="styleproject1.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
 </head>
 
 <body>
@@ -27,7 +29,7 @@
 
 <!-- button inside an anchor tag when you click it it will open a signup page  -->
 
-<a href="signup.html" target="_blank" width="150px"><button class="join">Join a club</button> </a> 
+<a href="signup.html" target="_blank"><button class="join" >Join a club</button> </a> 
 
 <!-- this is a nested div. it has multiple options 
        click on home, it will open a header's div container
@@ -57,14 +59,19 @@
 <div class="detail">
 
 <!-- this section has three pictures -->
-<section class="content">
-    <img src="craig-lovelidge-yDGsn39fbD4-unsplash.jpg" alt="gym workout machines" width="300px">
-    <img src="photo-genius-XqxnqyqDU0k-unsplash.jpg" alt="a woman doing workout at gym " width="300px">
-    <img src="vishwanth-pindiboina-zH9uqL_d258-unsplash.jpg" alt="gym cycle machine" width="300px">
+ <section class="content">
+    <div class="row">
+        <div class="col">
+    <img src="craig-lovelidge-yDGsn39fbD4-unsplash.jpg" alt="gym workout machines" width="300px"> </div>
+    <div class="col">
+    <img src="photo-genius-XqxnqyqDU0k-unsplash.jpg" alt="a woman doing workout at gym " width="300px"> </div>
+    <div class="col">
+    <img src="vishwanth-pindiboina-zH9uqL_d258-unsplash.jpg" alt="gym cycle machine" width="300px" height="200px"> </div>
+    </div>
 </section>
 <p>Gym has well-maintained cardio machines <span>(like treadmills, ellipticals, and stationary bikes), free weights (dumbbells, barbells, kettlebells)</span>, and strength training machines. .</p>
-</div>
 
+</div>
 
 
 
@@ -75,12 +82,13 @@
 
 <!-- this div has multiple divs inside it -->
 
-    <div class="flex-container">
+    <div class="flex-container text-center">
 
 <!-- each div shows a particular image and small description on a feature of the gym  -->
 <!-- the gym has parking space and its near by train station-->
  <!-- the gym has locker room, juice corner, shower rooms and clean enviroment -->
-<div class="feature">
+  <div class="row">
+<div class="feature col">
 
     <img class="location" src="location.jpg" alt="arrow sign to show direction for gym" width="200px" height="132px";>
     <div>
@@ -89,7 +97,7 @@
     </div>
 </div>
 
-<div class="feature">
+<div class="feature col">
     <img class="lockers" src="lockers.jpg" alt="locker room" width="200px">
     <div>
         <h2 style="text-align: center; color:white;">Secure Storage</h2> 
@@ -97,7 +105,7 @@
 </div>
 </div>
 
-<div class="feature">
+<div class="feature col">
 
 <img class="juice-corner" src="juice.jpg" alt="two glass of juice" width="150px">
 <div>
@@ -106,7 +114,7 @@
 </div>
 </div>
 
-<div class="feature">
+<div class="feature col">
     <img class="bath" src="bath.jpg" alt="shower room" width="200px" height="133px" >
     <div>
         <h2 style="text-align:center; color:white ;">Recovery Rooms</h2>
@@ -114,7 +122,7 @@
     </div>
 </div>
      
-<div class="feature">
+<div class="feature col">
 
 <img class="clean-enviroment" src="clean.jpg" alt="workout machines at gym" width="200px" >
 <div>
@@ -122,7 +130,7 @@
     <p class="line">First impressions last, and a clean gym is an attractive one</p>
 </div>
 </div>
-
+  </div>
 </div>
 </div>
 
@@ -131,17 +139,20 @@
 <!-- this section has two divs one is for gym opening and closing times
  address, phone and email -->
  <!-- second div is to show the location -->
-<section id="contactus" >
+<div id="contactus text-center" >
 
 	<div id="box-one">
 
+    <div class="row">
+
+    <div class="col">
 		
         <h2>Open times</h2>
 		<table class="center">
 		<tr>
 			<th></th>
-			<th>Open</th>
-			<th>Close</th>	
+			<th>Open  </th>
+			<th>  - Close</th>	
 		</tr>
 		<tr>
 			<td>Mon - Fri</td>
@@ -171,14 +182,19 @@
 		<h3>Address</h3>
 		<p>247<br>Ilford Essex<br>London</p>
 	</div>
-  
-    
+    </div>
+    </div>
+
 <div id="box-two">
+    <div class="row">
+    <div class="col">
     <h2>Location</h2>
         
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9922.785416310386!2d0.0461667871582028!3d51.55546670000002!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a65f30d4fda9%3A0xdc0e8705e634e8f1!2sThe%20Gym%20Group%20London%20Ilford%20Romford%20Road!5e0!3m2!1sen!2suk!4v1730305621926!5m2!1sen!2suk" width="400" height="300"></iframe>
     </div>
-</section>
+    </div>
+</div>
+</div>
 <!---------------------- section end ------------------>
 
 
@@ -197,6 +213,7 @@
 
 </div>
 <!-- footer end -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
 </body>
 
