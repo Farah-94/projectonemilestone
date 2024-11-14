@@ -24,13 +24,15 @@
 
 ## Design
 *  Colour Scheme
-- The website's main page has a white body colour.
-- The website services page has a blue body colour.
-- The website trainer page has a blue body colour. 
- sections and divs have three background colours: black, dark blue and dark purple. 
+    - The website's main page has a white body colour.
+    - The website services page has a blue body 
+     colour.
+    - The website trainer page has a blue body 
+   colour. 
+    - sections and divs have three background colours: black, dark blue and dark purple. 
 
-## Typography
-    - The Cambria Cochin is the main font used throughout the whole website, with Serif as the fallback font in case, for any reason, the font isn't being imported correctly.
+*  Typography
+   - The Cambria Cochin is the main font used throughout the whole website, with Serif as the fallback font in case, for any reason, the font isn't being imported correctly.
 
  ## Imagery
   * Logo
