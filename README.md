@@ -34,17 +34,17 @@
 *  Typography
    - The Cambria Cochin is the main font used throughout the whole website, with Serif as the fallback font in case, for any reason, the font isn't being imported correctly.
 
- ## Imagery
-  * Logo
+*  Imagery
+    * Logo
       - The logo is a simple and clear image. It is designed to highlight the name of the gym. ![logo](images/real.jpg)
-  * Background Image
+    * Background Image
        -  The multi-color background image in the header is set to attract the user.   ![background image](images/logo7.jpg)
-  * Website Content   
+    * Website Content   
        - There are three images in the content section.These images are designed to show the gym machines, types of equipment, gym atmosphere, values and mission for light to heavy workouts.   
        ![gym weights](images/one.jpg)  
        ![workout](images/two.jpg)  
        ![gym cycling machine](images/three.jpg)
-   * Facilities    
+    * Facilities    
       - There are five more images on the main page of the website. These images describe the facilities that the gym offers to its members. 
          1. the gym location is near to the train station.
          2. there are well maintained recovery rooms. 
@@ -56,18 +56,29 @@
    ![lockers ](images/lockers.jpg)
    ![juices](images/juice.jpg)
    ![inside picture of a gym to show clean enviroment](images/clean.jpg)
-
-## Wireframes
-   - Home Page Wireframe - [view here](https://www.figma.com/design/5IJvJkYiBcvDniuKs1oU3s/Champions-Gym-And-Club?node-id=0-1)  
-   - Services Page Wireframe - [view here](https://www.figma.com/design/5IJvJkYiBcvDniuKs1oU3s/Champions-Gym-And-Club?node-id=1-2)
-   - Trainer Page Wireframe - [view here](https://www.figma.com/design/5IJvJkYiBcvDniuKs1oU3s/Champions-Gym-And-Club?node-id=1-3)
+   
+* Wireframes
+    - Home Page Wireframe - [view here](https://www.figma.com/design/5IJvJkYiBcvDniuKs1oU3s/Champions-Gym-And-Club?node-id=0-1)  
+    - Services Page Wireframe - [view here](https://www.figma.com/design/5IJvJkYiBcvDniuKs1oU3s/Champions-Gym-And-Club?node-id=1-2)
+    - Trainer Page Wireframe - [view here](https://www.figma.com/design/5IJvJkYiBcvDniuKs1oU3s/Champions-Gym-And-Club?node-id=1-3)
 
 ## Features
   + Responsive on all device sizes
   + Interactive elements
 
 ## Technologies Used
-  + HTML5
-  + CSS3
-
-##
+  ### Languages Used
+   * [HTML5](https://en.wikipedia.org/wiki/HTML5)
+   * [CSS3](https://en.wikipedia.org/wiki/CSS)
+ 
+  ### Frameworks, Libraries & Programs Used
+   1. [Bootstrap v5.3 :](https://getbootstrap.com/)
+        - Bootstrap is used for responsiveness and styling of web pages.
+   2. [Google Fonts :](https://fonts.google.com/) 
+        - Google fonts are used to import cabin fonts into the styleproject1.css.
+   3. [Git :](https://git-scm.com/)
+        - With the help of Git. Gitpod push and commit the changes inside the code.
+   4. [GitHub :](https://github.com/)
+        - GitHub is used to store and edit the project.
+   5. [Figma](https://www.figma.com/)
+        - Figma is used to design the website.                       

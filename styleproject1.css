@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
+
 html, body {
     height: 160%; 
     background-color:white;
@@ -7,26 +8,28 @@ html, body {
       padding: 0;
      box-sizing: border-box;
      position:relative;
-  }
+ }
+
+ 
   
-  span {
+span {
     font-weight: 700;
-  }
+}
 
 
 
   /* logo in the mainpage.html container-one */
-  .logo {
+.logo {
     width:  200px;
     height:70px;
     border-radius: 50%;
   margin: 1%;
   outline: double 4px rgb(66, 32, 101);
-  }
+}
   
 
   /* this button on mainpage.html container-one for discount */
-  button{
+button{
     /* border-style: double; */
     width:100%;
     background-color: rgb(4, 16, 76);
@@ -35,17 +38,18 @@ html, body {
     font-size: medium;
     margin-bottom:2%;
    
-  }
-  button:hover{ 
+}
+
+button:hover{ 
   
     background-color:white;
       color: black;
-    }
+}
   
 
   /* for button for signup */
-  .join
-  {
+.join
+{
     width: 180px;
     background-color: rgba(92, 46, 167, 0.792);
     color: rgb(237, 239, 241);
@@ -56,20 +60,19 @@ html, body {
     padding: 1%;
     outline: double 4px rgb(66, 32, 101);
    
-  }
+}
   
-  .join:hover {
+.join:hover {
     background-color: rgb(221, 233, 237);
     color: black;
   
-  }
+}
 
 
   /* this is a div class in mainpage.html header */
-  .container-one
-   {
+.container-one
+{
    
-
     margin: 0;
     padding: 0;
     width: 100%;
@@ -85,16 +88,16 @@ html, body {
   font-weight: 700;
   font-style: italic;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  }
+}
   
   /* un-ordered list for options in mainpage.html header  */
-   li {
+li {
     display:inline-block;
     text-align: center;
     padding: 0 16px;
     font-style: italic;
   
-  } 
+} 
   
   /* anchor tags in an un-ordered list in mainpage.html header */
   .home-options a
@@ -130,21 +133,21 @@ html, body {
     outline: dashed 2px black;
     width:100%;
     height:40%;
-    display: flex;
-    justify-content: center;
+    /* display: flex; */
+    /* justify-content: center; */
     background-image:radial-gradient(rgb(11, 11, 11),rgb(56, 62, 142),rgb(49, 39, 75));
-  
-  /* background-image:radial-gradient(rgb(29, 8, 8),rgb(131, 8, 131),rgb(10, 10, 152)); */
   margin-top:1%;
-  
   }
+
+}
+
   
 
   .detail p
   {
     width:100%;
     height:70px;
-    margin-top:1%;
+    margin:1%;
     color:black;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: large;
@@ -158,24 +161,27 @@ html, body {
     font-weight: 500;
     font-size: medium;
   }
+
+
   .feature
    {
     height:300px;
     width: 30%;
-    background-image:radial-gradient(rgb(11, 11, 11),rgb(56, 62, 142),rgb(49, 39, 75));
+    background-image:radial-gradient(rgb(55, 55, 55),rgb(56, 62, 142),rgb(49, 39, 75));
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   /* display: block; */
   outline: dashed 2px rgb(6, 3, 73);
   text-align: center;
   text-transform: capitalize;
-  
   }
+
+
   .juice-corner
    {
     outline: dashed 2px rgb(6, 3, 73);
-     width:200px;
-    
+     width:200px;  
   }
+
   .location
    {
     outline: dashed 2px rgb(6, 3, 73);
@@ -215,7 +221,6 @@ html, body {
    justify-content: center;
    height:400px;
     align-items: center;
-  
   }
   
   
@@ -275,6 +280,7 @@ html, body {
     text-decoration: underline;
     color: rgb(3, 15, 86);
     color: aliceblue;
+    box-shadow: 10px 10px 5px lightblue;
    }
  
    .aboutuspage {
@@ -288,8 +294,8 @@ html, body {
     background: rgba(3, 35, 91, 0.792) url('images/logo7.jpg') center center/ cover no-repeat;
       }
 
-      .aboutus-box{
-    
+.aboutus-box 
+      {
     text-align: center;
     font-size: x-large;
     font-style: italic;
@@ -299,12 +305,12 @@ height: 50%;
 
       }
   
-   #contactus {
+      #contactus {
    
     width: 100%;
     height: auto;  
     box-shadow: 0 4px 8px 0 rgba(22, 9, 9, 0.2), 0 6px 20px 0 rgba(65, 62, 62, 0.19);
-  margin-top:3%;
+ 
   
   } 
 
@@ -319,6 +325,7 @@ height: 50%;
     height: 400px;
     box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   text-align:center;
+  
   
   }
   .center{
@@ -337,12 +344,13 @@ height: 50%;
     width: 40%;
     height: 400px;
   overflow: hidden;
-  
+
     box-shadow : 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   }
   
   
-  .footer {
+  .footer
+   {
     background-image:radial-gradient(rgb(11, 11, 11),rgb(56, 62, 142),rgb(49, 39, 75));
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -359,8 +367,9 @@ height: 50%;
     font-size: large;
     padding: 1%;
   }
-  .contactus a  {
-    font-size: large;
+  .contactus a 
+  {
+  font-size: large;
   outline: dashed 2px rgb(6, 3, 73);
   text-transform: uppercase;
   margin: 3%;
@@ -368,12 +377,14 @@ height: 50%;
   color: aliceblue;
   }
   
-  .contactus a:hover {
+  .contactus a:hover 
+  {
     background-color: white;
     color: black;
   }
   
-   .signup-body {
+   .signup-body  
+  {
     background-image:radial-gradient(rgb(11, 11, 11),rgb(56, 62, 142),rgb(49, 39, 75));
      height: 110%;
      width:100%;
@@ -381,7 +392,8 @@ height: 50%;
      padding: 0;
   }
   
-  .signup-page-header h1 {
+  .signup-page-header h1
+  {
   text-align: center;
   background-color: rgb(8, 8, 61);
   color: aliceblue;
@@ -402,15 +414,19 @@ height: 50%;
   background: rgba(3, 35, 91, 0.792) url('images/logo7.jpg') center center/ cover no-repeat;
   }
 
-  legend{
+  legend 
+  {
     font-size: x-large;
   }
+  
   #forms input:focus {
     background-color: rgb(27, 24, 60);
     color: aliceblue;
 
   }
-  label{
+
+  label
+  {
     padding: 10px 10px 10px 0;
    display:block;
    font-size: large;
@@ -418,7 +434,9 @@ height: 50%;
    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
    font-style: italic;
   }
-  input{
+
+  input
+  {
     width: 300px;
     padding:1%;
   }
