@@ -83,11 +83,13 @@
    5. [Figma :](https://www.figma.com/)
         - Figma is used to design the website.  
    6. [Unsplash :](https://unsplash.com/)
-        - Images used throughout the project except real.png is from Unsplash.                          
+        - Images used throughout the project except real.png is from Unsplash.  
 
+   7. Gantt Chart
+      ![Gantt Chart ](image-1.png)
 
 ## Testing
-### Website Testing: 
+### Test Report: 
 * Expected :
      - This project aims to gain customer attention through the 
       services offered and convince them to join a club. The project should have three sections or pages. The code 
