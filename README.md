@@ -77,12 +77,31 @@
    2. [Google Fonts :](https://fonts.google.com/) 
         - Google fonts are used to import cabin fonts into the styleproject1.css.
    3. [Git :](https://git-scm.com/)
-        - With the help of Git. Gitpod push and commit the changes inside the code.
+        - With the help of Git. Gitpod pushes and commits the changes inside the code.
    4. [GitHub :](https://github.com/)
         - GitHub is used to store and edit the project.
-   5. [Figma](https://www.figma.com/)
-        - Figma is used to design the website.                       
+   5. [Figma :](https://www.figma.com/)
+        - Figma is used to design the website.  
+   6. [Unsplash :](https://unsplash.com/)
+        - Images used throughout the project except real.png is from Unsplash.                          
 
 
 ## Testing
+### Website Testing: 
+* Expected :
+     - This project aims to gain customer attention through the 
+      services offered and convince them to join a club. The project should have three sections or pages. The code 
+      should be in HTML5 and CSS3. The main page should be connected with the other pages and sections. Images should be used on different pages/sections to display types of equipment, internal environments, and service options. This project should be responsive on different devices. The project should have the W3C testing validation.   
 
+* Actual :
+   - The design and functionality of this project have 
+      successfully achieved the requirements. This is responsive on different screen sizes. The developer writes the code in HTML and CSS within the timeframe. Images are used on three pages. There are total six pages and some pages have internal link sections to provide details. The developer successfully created the design of the website with the help of Figma. Bootstrap is used to improve the structutre of the website. CSS is tested from W3C testing validation.  ![Test validation](<Screenshot 2024-11-14 230401.png>)
+
+* Error List: 
+   - The application is working fine. There is no error found. 
+          Types of tests that are carried out during the testing process:
+   - White Box testing is carried out successfully. It means the 
+          structure of the actual code is tested. The developer uses the same classes multiple times which enhances the code's Usability. It fulfills the required criteria.
+
+      
+                         
