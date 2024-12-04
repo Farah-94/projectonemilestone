@@ -71,7 +71,7 @@
     height: 30%;
     text-align: center;
     align-items: center;
-  background: rgba(3, 35, 91, 0.792) url('images/logo7.jpg') center center/ cover no-repeat;
+  background: rgba(3, 35, 91, 0.792) url('/images/logo7.jpg') center center/ cover no-repeat;
   /* background-repeat: no-repeat;
   background-position: center;
    background-size: auto;  */
@@ -105,11 +105,11 @@
   }
   
    .home-options
-    { 
-    /* display: flex;
-    flex-direction: row; */
+    {    
   background-color: rgb(39, 13, 39);
-    /* border-style: double; */
+ 
+  
+
   } 
   
   .home-options a:hover 
@@ -197,7 +197,7 @@
   .services-container {
     width: 100%;
     height:300px;
-    background:url('images/logo7.jpg') center center/ cover no-repeat;
+    background:url('/images/logo7.jpg') center center/ cover no-repeat;
     /* background-color: rgb(39, 26, 73); */
     color: aliceblue;
     text-align: center;
@@ -205,6 +205,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-style: italic;
   align-items :center;
+ 
   }
   
    .nav-services a{
@@ -249,17 +250,17 @@
     color:aliceblue;
     margin:0;
     padding: 0;
-    background: rgba(3, 35, 91, 0.792) url('images/logo7.jpg') center center/ cover no-repeat;
+    background: rgba(3, 35, 91, 0.792) url('/images/logo7.jpg') center center/ cover no-repeat;
       }
 
       .aboutus-box{
     
-    text-align: center;
+    /* text-align: center; */
     font-size: x-large;
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    width: 50%;
-height: 50%;
+    width: 100%;
+height: 100%;
 
       }
   
@@ -270,6 +271,12 @@ height: 50%;
   
   } 
 
+.detail{
+  width: 100%;
+}
+
+
+
   @media screen and (max-width:768px) {
       #contactus{
         flex-direction:column;
@@ -277,12 +284,15 @@ height: 50%;
       #box-one,#box-two{
         width: 100%;
       }
+      
   }
 
   @media screen and (min-width:768px) {
       #box-one,#box-two{
         width: 50%;
       }
+
+
   }
 
 
@@ -360,7 +370,7 @@ height: 50%;
   text-align: center;
   height: 70%;
   color: aliceblue;
-  background: rgba(3, 35, 91, 0.792) url('images/logo7.jpg') center center/ cover no-repeat;
+  background: rgba(3, 35, 91, 0.792) url('/images/logo7.jpg') center center/ cover no-repeat;
   }
 
   legend{
