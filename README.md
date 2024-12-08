@@ -97,7 +97,15 @@
 
 * Actual :
    - The design and functionality of this project have 
-      successfully achieved the requirements. This is responsive on different screen sizes. The developer writes the code in HTML and CSS within the timeframe. Images are used on three pages. There are total six pages and some pages have internal link sections to provide details. The developer successfully created the design of the website with the help of Figma. Bootstrap is used to improve the structutre of the website. CSS is tested from W3C testing validation.  ![Test validation](<Screenshot 2024-11-14 230401.png>)
+      successfully achieved the requirements. This is responsive on different screen sizes. The developer writes the code in HTML and CSS within the timeframe. Images are used on three pages. There are total six pages and some pages have internal link sections to provide details. The developer successfully created the design of the website with the help of Figma. Bootstrap is used to improve the structutre of the website. CSS is tested from W3C testing validation.  ![css](/validation%20images/css.png)
+       
+      ![index.html](/validation%20images/index.png) 
+      ![signup.html](/validation%20images/signup.png)       
+      ![services.html](/validation%20images/services.png)
+      ![trainer.html](/validation%20images/trainer.png)
+      ![welcome.html](/validation%20images/welcome.png)
+      ![aboutus.html](/validation%20images/aboutus.png)
+      ![booking.html](/validation%20images/booking.png)
 
 * Error List: 
    - The application is working fine. There is no error found. 
