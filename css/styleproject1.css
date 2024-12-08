@@ -284,7 +284,11 @@ height: 100%;
       #box-one,#box-two{
         width: 100%;
       }
-      
+      video {
+        width: 30%;
+    
+      }
+    
   }
 
   @media screen and (min-width:768px) {
