@@ -285,7 +285,7 @@ height: 100%;
         width: 100%;
       }
       video {
-        width: 30%;
+        width: 500;
     
       }
     
@@ -295,7 +295,9 @@ height: 100%;
       #box-one,#box-two{
         width: 50%;
       }
-
+video {
+  width : 300;
+}
 
   }
 
