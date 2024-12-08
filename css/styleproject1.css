@@ -71,7 +71,7 @@
     height: 40%;
     text-align: center;
     align-items: center;
-  background: rgba(73, 18, 73, 0.792) url('/images/logo7.jpg') center center/ cover no-repeat;
+  background: rgba(73, 18, 73, 0.792) url('images/logo7.jpg') center center/ cover no-repeat;
   /* background-repeat: no-repeat;
   background-position: center;
    background-size: auto;  */
