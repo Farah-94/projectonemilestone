@@ -4,13 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Signup</title>
+
+    <!-- css link -->
     <link rel="stylesheet" href="/css/styleproject1.css">
 
     
 </head>
 
 
+
+
 <body class="signup-body">
+
+    <!-- header -->
     <header >
         <div class="signup-page-header">
             <h1>Signup</h1>
@@ -20,23 +26,33 @@
 
     </header>
 
+    <!-- header end -->
+
     <!-- details for signup -->
             <fieldset class="signup-page-container" >
-          <legend>Details</legend>  
+              <legend>Details</legend>  
                       <form id="forms"  action="welcome.html" target="_self" >
-
+                <!-- first name -->
                 <label for="firstname" id="fname">First Name :</label>
                 <input id="firstname" type="text" required placeholder="Enter First Name"><br><br>
+                 
 
+                <!-- last name -->
                 <label for="lastname" id="lname">Last Name :</label>
                 <input id="lastname" type="text" required placeholder="Enter Last Name"><br><br>
+  
 
+                <!-- Email  -->
                 <label for="Email" id="email">Email :</label>
                 <input id="Email" type="email" required placeholder="Enter Email"><br><br>
 
+
+
+                <!-- contact number -->
                 <label id="cnum" for="contactnumber">Contact Number :</label>
                 <input id="contactnumber" type="text" required><br><br>
 
+                <!-- select city -->
 
                 <label for="cities">Where do you live :</label>
                 <select name="city" id="cities">
@@ -46,6 +62,8 @@
                     <option value="">liverpool</option>
                     </select>
               <br><br>
+
+              <!-- radio button for yes and no -->
              <div class="radio">
               <label  for="radiobutton"> Are you over 50 years of age :</label>
               <label for="radiobutton">yes</label>
@@ -54,16 +72,24 @@
               <input  type="radio" id="radiobutton2" value="No"><br><br>
             </div>
             
-
+              <!-- password -->
             <label for="password" id="pass">Password :</label>
             <input type="password" id="password" required> <br><br>
 
+
+
+            <!-- if you are club memeber then you can access a booking page -->
           <p> Already a member <a href="bookingpage.html"  target="_self" aria-label="this link opens a booking page">Book a trainer</a> </p>
 
+
+          <!-- submit -->
 <input type="submit" value="Signup" class="join">
 
             </form>
             </fieldset>
+
+
+            <!-- footer -->
             <div class="footer">
 
                 <span>Find us on:</span>
