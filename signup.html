@@ -14,31 +14,31 @@
     <header >
         <div class="signup-page-header">
             <h1>Signup</h1>
-            <h2> <a href="index.html" alt="index page link" target="_parent" aria-label="this link opens an index back"> Back </a></h2>
+            <h2> <a href="index.html" target="_parent" aria-label="this link opens an index back"> Back </a> </h2>
         </div>
 
 
     </header>
 
     <!-- details for signup -->
-            <fieldset class="signup-page-container">
+            <fieldset class="signup-page-container" >
           <legend>Details</legend>  
-                      <form id="forms"  action="welcome.html" target="_self">
+                      <form id="forms"  action="welcome.html" target="_self" >
 
                 <label for="firstname" id="fname">First Name :</label>
-                <input id="fname" type="text" required placeholder="Enter First Name"><br><br>
+                <input id="firstname" type="text" required placeholder="Enter First Name"><br><br>
 
                 <label for="lastname" id="lname">Last Name :</label>
-                <input id="lname" type="text" required placeholder="Enter Last Name"><br><br>
+                <input id="lastname" type="text" required placeholder="Enter Last Name"><br><br>
 
                 <label for="Email" id="email">Email :</label>
-                <input id="email" type="email" required placeholder="Enter Email"><br><br>
+                <input id="Email" type="email" required placeholder="Enter Email"><br><br>
 
                 <label id="cnum" for="contactnumber">Contact Number :</label>
-                <input id="cnum" type="text" required><br><br>
+                <input id="contactnumber" type="text" required><br><br>
 
 
-                <label for="countries" required>Where do you live :</label>
+                <label for="cities">Where do you live :</label>
                 <select name="city" id="cities">
                     <option value="">london</option>
                     <option value="">birmingham</option>
@@ -49,16 +49,16 @@
              <div class="radio">
               <label  for="radiobutton"> Are you over 50 years of age :</label>
               <label for="radiobutton">yes</label>
-              <input  type="radio" name="radiobutton" value="Yes">
-              <label  for="radiobutton"> no</label>
-              <input  type="radio" name="radiobutton" value="No"><br><br>
+              <input  type="radio" id="radiobutton" value="Yes">
+              <label  for="radiobutton2"> no</label>
+              <input  type="radio" id="radiobutton2" value="No"><br><br>
             </div>
             
 
             <label for="password" id="pass">Password :</label>
-            <input type="password" id="pass" required> <br><br>
+            <input type="password" id="password" required> <br><br>
 
-          <p> Already a member <a href="bookingpage.html" alt="booking page" target="_self" aria-label="this link opens a booking page"> Book a trainer</a></p>
+          <p> Already a member <a href="bookingpage.html"  target="_self" aria-label="this link opens a booking page">Book a trainer</a> </p>
 
 <input type="submit" value="Signup" class="join">
 
