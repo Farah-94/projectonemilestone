@@ -2,6 +2,15 @@
 
 *Welcome to the [Champions Gym And Club](https://8000-farah94-projectonemiles-lmrovgr2hc8.ws.codeinstitute-ide.net/index.html) official website. It is responsible for managing its size for different devices for great visualization for customers and working partners.* 
 ![Champions gym and club website on four different devices screen to check responsiveness](image.png)
+
+# Purpose 
+  The project serves many important purposes. 
+  - The main purpose of this website is to encourage people towards healthy life by showcasing 
+    advance gym equipments and what the Champions gym and club offers.      
+  - It has facilities like finger print locker room, luxury recovery rooms, refreshment 
+    corner, free wifi, clean and secure enviroment and convinient location. 
+  - The website provides you all the information about gym, dance and swimming.
+  - You can signup free and book your suitable trainer with the appointment button.   
  
  ## User Experience (UX)
 ### User Stories
