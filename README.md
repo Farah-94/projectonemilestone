@@ -44,6 +44,17 @@
    - The Cambria Cochin is the main font used throughout the whole website, with Serif as the fallback font in case, for any reason, the font isn't being imported correctly.
 
 *  Imagery
+    * Website
+      ![Index page](/images/index.png)
+      [](/images/index2.png)
+      [](/images/index3.png)
+      [](/images/index4.png)
+      ![Services page](/images/services.png)
+      [](/images/services2.png)
+      ![Trainer page](/images/trainer.png)
+      ![Signup](/images/signup.png)
+      ![Signin](/images/Signin.png)
+      ![Aboutus page](/images/aboutus.png)
     * Logo
       - The logo is a simple and clear image. It is designed to highlight the name of the gym. ![logo](images/real.jpg)
     * Background Image

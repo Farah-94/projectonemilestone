@@ -247,7 +247,7 @@
     color:aliceblue;
     margin:0;
     padding: 0;
-    background: rgba(3, 35, 91, 0.792) url('images/logo.jpg') center center/ cover no-repeat;
+    background: rgba(3, 35, 91, 0.792) url('/images/logo.jpg') center center/ cover no-repeat;
       }
 
       .aboutus-box {
@@ -374,7 +374,7 @@ video {
   text-align: center;
   height: 70%;
   color: aliceblue;
-  background: rgba(3, 35, 91, 0.792) url('images/logo.jpg') center center/ cover no-repeat;
+  background: rgba(3, 35, 91, 0.792) url('/images/logo.jpg') center center/ cover no-repeat;
   }
 
   legend{
