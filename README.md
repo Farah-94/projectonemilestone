@@ -99,6 +99,7 @@
 
 ## Testing
 ### Test Report: 
+* [Testplan:](https://1drv.ms/w/c/e1af83f369e97fb7/Eez8WCMwBzpEpUyOpNUu8hcBBDhdS7xDVWb86MZuTwCMzA?e=MzT6Pf)
 * Expected :
      - This project aims to gain customer attention through the 
       services offered and convince them to join a club. The project should have three sections or pages. The code 
