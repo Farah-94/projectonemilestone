@@ -55,6 +55,7 @@
       ![Signup](/images/signup.png)
       ![Signin](/images/Signin.png)
       ![Aboutus page](/images/aboutus.png)
+      ![Welcome page](/images/welcome.png)
     * Logo
       - The logo is a simple and clear image. It is designed to highlight the name of the gym. ![logo](images/real.jpg)
     * Background Image
