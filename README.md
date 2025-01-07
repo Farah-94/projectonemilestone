@@ -47,7 +47,7 @@
     * Logo
       - The logo is a simple and clear image. It is designed to highlight the name of the gym. ![logo](images/real.jpg)
     * Background Image
-       -  The multi-color background image in the header is set to attract the user.   ![background image](images/logo7.jpg)
+       -  The multi-color background image in the header is set to attract the user.   ![background image](background.jpg)
     * Website Content   
        - There are three images in the content section.These images are designed to show the gym machines, types of equipment, gym atmosphere, values and mission for light to heavy workouts.   
        ![gym weights](images/one.jpg)  
