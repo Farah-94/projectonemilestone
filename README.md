@@ -3,6 +3,11 @@
 *Welcome to the [Champions Gym And Club](https://farah-94.github.io/projectonemilestone/index.html) official website. It is responsible for managing its size for different devices for great visualization for customers and working partners.* 
 ![Champions gym and club website on four different devices screen to check responsiveness](image.png)
 
+## Links
+
+- **GitHub Repository**: [projectmilestoneone]()
+- **Website**: [Champions Gym And Club](https://farah-94.github.io/projectonemilestone/index.html)
+
 # Purpose 
   The project serves many important purposes. 
   - The main purpose of this website is to encourage people towards healthy life by showcasing 
