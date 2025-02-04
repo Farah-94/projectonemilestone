@@ -3,7 +3,7 @@
 *Welcome to the [Champions Gym And Club](https://farah-94.github.io/projectonemilestone/index.html) official website. It is responsible for managing its size for different devices* 
 ![Champions gym and club website on four different devices screen to check responsiveness](image.png)
 
-## Deployment
+# Deployment
 - Login to GitHub
 - From the list of the repositories on the screen, select **projectonemilestoneone**
 - From the menu items near the top of the page, select **settings**
@@ -11,15 +11,26 @@
 - Under **source** click the drop down menu labelled **Name** and select **Master Branch**
 - On selecting Master Branch the page is automatically refreshed, the website is new deployed
 At the moment of submitting the Milestone project the Development Branch and Master Branch are identical
-# How to run the project locally
-To clone the project from GitHub
-- Follow the link to the **GitHub Repository**: [Project Repository](https://github.com/Farah-94/projectonemilestone)
-- Under the repository name , click "clone or download".
-- In the clone with HTTPs section copy the clone URL for the repository
-- In your local IBE open the terminal
-- Change the current working directory to the location where you want the cloned directory to be made.
-- Type git clone, and then paste the URL you copied in Step3.
-- git clone 
+## How to run the project locally
+- A Github account. [Create a Github Account here](https://pages.github.com/) 
+- Use the Chrome browser then follow these steps:
+1. Install the Gitpod Browser Extension for Chrome
+2. After installation, restart the browser
+3. log into Gitpod with your gitpod account
+4. Navigate to the Project Github repository
+5. Click the green "Gitpod" button in the top right corner of the repository
+6. This will trigger a new gitpod workspace to be created from the code in github where you can work locally. 
+
+
+To work on the project code within a local IBE such as VSCode, Pycharm etc
+1. Follow the link to the [Project Repository](https://github.com/Farah-94/projectonemilestone)
+2. Under the repository name , click "clone or download".
+3. In the clone with HTTPs section copy the clone URL for the repository
+4. In your local IBE open the terminal
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type git clone, and then paste the URL you copied in Step3.
+ **git clone https://github.com/Farah-94/projectonemilestone**
+7. Press Enter. Your local clone will be created.
 
 # Purpose 
   The project serves many important purposes. 
