@@ -125,7 +125,7 @@
        
       ![index.html](/validation%20images/index.png) 
       ![signup.html](/validation%20images/signup.png)       
-      ![services.html](/validation%20images/services.png)
+      ![services.html](/validation%20images/service.png)
       ![trainer.html](/validation%20images/trainer.png)
       ![welcome.html](/validation%20images/welcome.png)
       ![aboutus.html](/validation%20images/aboutus.png)
