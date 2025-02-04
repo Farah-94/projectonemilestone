@@ -51,8 +51,7 @@
 *  Imagery
     * Website
       ![Index page](/images/index.png)
-      ![Services page](/images/service.png)
-      
+      ![Services page](/images/services.png)
       ![Trainer page](/images/trainer.png)
       ![Signup](/images/signup.png)
       ![Signin](/images/signin.png)
