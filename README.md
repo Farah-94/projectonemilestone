@@ -5,7 +5,7 @@
 
 ## Links
 
-- **GitHub Repository**: [projectmilestoneone]()
+- **GitHub Repository**: [Project Repository Link](https://github.com/Farah-94/projectonemilestone)
 - **Website**: [Champions Gym And Club](https://farah-94.github.io/projectonemilestone/index.html)
 
 # Purpose 
