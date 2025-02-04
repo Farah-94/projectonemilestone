@@ -51,14 +51,11 @@
 *  Imagery
     * Website
       ![Index page](/images/index.png)
-      [](/images/index2.png)
-      [](/images/index3.png)
-      [](/images/index4.png)
-      ![Services page](/images/services.png)
-      [](/images/services2.png)
+      ![Services page](/images/service.png)
+      
       ![Trainer page](/images/trainer.png)
       ![Signup](/images/signup.png)
-      ![Signin](/images/Signin.png)
+      ![Signin](/images/signin.png)
       ![Aboutus page](/images/aboutus.png)
       ![Welcome page](/images/welcome.png)
     * Logo
