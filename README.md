@@ -3,10 +3,23 @@
 *Welcome to the [Champions Gym And Club](https://farah-94.github.io/projectonemilestone/index.html) official website. It is responsible for managing its size for different devices* 
 ![Champions gym and club website on four different devices screen to check responsiveness](image.png)
 
-## Links
-
-- **GitHub Repository**: [Project Repository](https://github.com/Farah-94/projectonemilestone)
-- **Website**: [Champions Gym And Club](https://farah-94.github.io/projectonemilestone/index.html)
+## Deployment
+- Login to GitHub
+- From the list of the repositories on the screen, select **projectonemilestoneone**
+- From the menu items near the top of the page, select **settings**
+- Scroll down to the **GitHub Pages** section
+- Under **source** click the drop down menu labelled **Name** and select **Master Branch**
+- On selecting Master Branch the page is automatically refreshed, the website is new deployed
+At the moment of submitting the Milestone project the Development Branch and Master Branch are identical
+# How to run the project locally
+To clone the project from GitHub
+- Follow the link to the **GitHub Repository**: [Project Repository](https://github.com/Farah-94/projectonemilestone)
+- Under the repository name , click "clone or download".
+- In the clone with HTTPs section copy the clone URL for the repository
+- In your local IBE open the terminal
+- Change the current working directory to the location where you want the cloned directory to be made.
+- Type git clone, and then paste the URL you copied in Step3.
+- git clone 
 
 # Purpose 
   The project serves many important purposes. 
