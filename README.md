@@ -1,6 +1,6 @@
 #                                 Champion Gym And Club Website  
 
-*Welcome to the [Champions Gym And Club](https://8000-farah94-projectonemiles-lmrovgr2hc8.ws.codeinstitute-ide.net/index.html) official website. It is responsible for managing its size for different devices for great visualization for customers and working partners.* 
+*Welcome to the [Champions Gym And Club](https://farah-94.github.io/projectonemilestone/index.html) official website. It is responsible for managing its size for different devices for great visualization for customers and working partners.* 
 ![Champions gym and club website on four different devices screen to check responsiveness](image.png)
 
 # Purpose 
