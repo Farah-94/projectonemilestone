@@ -132,7 +132,7 @@ To work on the project code within a local IBE such as VSCode, Pycharm etc
         - Images used throughout the project except real.png is from Unsplash.  
 
    7. Gantt Chart
-      ![Gantt Chart ](image-1.png)
+      [Gantt Chart :](https://1drv.ms/x/c/e1af83f369e97fb7/Ebd_6Wnzg68ggOHpDAAAAAABeKp3FHv7adn92t_WlMpDtA?e=R4bcOI)
 
 ## Testing
 ### Test Report: 
